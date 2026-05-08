@@ -27,3 +27,21 @@ let state;
 
 console.log(typeof undefined); // undefined
 console.log(typeof null); // object
+console.log("my name is gautam ")
+console.log("the next is the table of mine")
+let studentMate = "satyarth"
+let studentMateclass = "csa"
+console.table({studentMate, studentMateclass})
+number =10;
+let name ="gautam";
+//name is a string and number is a number 
+let age=20
+console.log(typeof name)
+console.log(typeof age)
+console.table({name,age}) 
+// the data type in javascript are string ,number ,boolean, null, undefined, symbol, bigint
+// where string is a sequence of characters, number is a numeric value, boolean is a logical value that can be true or false, 
+// null is a value that represents the absence of any object value, 
+// undefined is a value that represents the absence of a value, 
+// symbol is a unique and immutable data type that can be used as an identifier for object properties,
+// bigint is a numeric data type that can represent integers with arbitrary precision.
