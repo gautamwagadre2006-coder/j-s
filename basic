@@ -1,0 +1,11 @@
+console.log("data table");
+const dataTable= 241120;
+let studentName ="gautam";
+let studentClass= "csb";
+let studentMarks =90;
+// dataTable= 241120; // this will give an error because dataTable is a constant variable
+var studentAge =20;
+//prefer to use let and const instead of var because var is function scoped and can lead to unexpected behavior
+let studentEmail = "gautam@example.com";
+var studentAge =31;
+console.table({dataTable, studentName, studentClass, studentMarks, studentAge, studentEmail});
